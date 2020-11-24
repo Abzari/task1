@@ -1,2 +1,22 @@
+//task1
 str="Hi This is our First Task"
 print(str[2:])
+//task2
+a=b=c=100
+d=a/10
+e=b*50
+f=c+60
+print(d)
+print(e)
+print(f)
+
+string="CAMERA"
+g=string.replace("E","G")
+print(g)
+
+a=10
+b=20.0
+c=print(float(a))
+d=print(int(b))
+
+
