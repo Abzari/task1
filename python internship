@@ -1,6 +1,7 @@
 //task1
 str="Hi This is our First Task"
 print(str[2:])
+
 //task2
 a=b=c=100
 d=a/10
@@ -18,5 +19,29 @@ a=10
 b=20.0
 c=print(float(a))
 d=print(int(b))
+
+//task3
+marks={'maths':90,'science':78,'social':89}
+age={'Anitha':23,'Geetha':21,'Swapna':25}
+d=marks.copy()
+d.update(age)
+print(d)
+
+if 'social' in marks:
+  del marks['social']
+print(marks)
+
+subjects=['biology','chemistry','physics']
+scores=['120','135','145']
+exam_marks=dict(zip(subjects,scores))
+print(exam_marks)
+
+n={'apple','banana','orange'}
+print(len(n))
+
+a={5,10,15,20,25,30}
+b={10,20,30,40,50,60}
+a.difference_update(b)
+print(a)
 
 
