@@ -1,8 +1,8 @@
-//task1
+'''task1'''
 str="Hi This is our First Task"
 print(str[2:])
 
-//task2
+'''task2'''
 a=b=c=100
 d=a/10
 e=b*50
@@ -20,7 +20,7 @@ b=20.0
 c=print(float(a))
 d=print(int(b))
 
-//task3
+'''task3'''
 marks={'maths':90,'science':78,'social':89}
 age={'Anitha':23,'Geetha':21,'Swapna':25}
 d=marks.copy()
@@ -44,4 +44,31 @@ b={10,20,30,40,50,60}
 a.difference_update(b)
 print(a)
 
+'''task4'''
+L=[]
+L.append(10)
+L.append(20)
+L.append(30)
+L.append(35)
+L.append(40)
+print(L)
+
+L.insert(5,50)
+print(L)
+
+L.pop(3)
+print(L)
+
+L.sort()
+a=L[-1]
+b=L[0]
+print(a)
+print(b)
+
+t=(2,4,6,8,10)
+rev=reversed(t)
+print(tuple(rev))
+
+Z=list(t)
+print(Z)
 
